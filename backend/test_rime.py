@@ -9,7 +9,7 @@ async def main():
     async with open_http_context():
         tts = rime.TTS(
             model="coda",
-            speaker="celseste",
+            speaker="celeste",
             use_websocket=False,
         )
 
